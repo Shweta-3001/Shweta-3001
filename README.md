@@ -126,15 +126,6 @@ Builds a full week of meals that hit your daily macros and budget, powered by a 
 
 ---
 
-## 📊 GitHub at a glance
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Shweta-3001&show_icons=true&hide_border=true&count_private=true&theme=tokyonight"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shweta-3001&layout=compact&hide_border=true&theme=tokyonight"/>
-</p>
-
----
-
 ## 💡 Fun facts
 
 - ⏱️ My favorite win was turning an 8 hour data refresh into a 30 minute one
