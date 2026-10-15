@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Career journey: Dell, Providence, Columbia, Amazon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d1a"/><stop offset="1" stop-color="#12324a"/>
+    </linearGradient>
+    <linearGradient id="track" gradientUnits="userSpaceOnUse" x1="120" y1="0" x2="1080" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .draw{stroke-dasharray:1100;animation:draw 2.6s ease-out both}
+    @keyframes draw{from{stroke-dashoffset:1100}to{stroke-dashoffset:0}}
+    .pop{animation:pop .7s cubic-bezier(.2,1.4,.4,1) both;transform-box:fill-box;transform-origin:center}
+    @keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+    .fade{animation:fade .9s ease-out both}
+    @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .ring{animation:ring 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.4)}}
+  </style>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <text x="60" y="52" class="t" font-size="14" letter-spacing="4" fill="#7cc8ff">MY JOURNEY</text>
+
+  <line x1="120" y1="130" x2="1080" y2="130" stroke="#ffffff" stroke-opacity="0.08" stroke-width="6" stroke-linecap="round"/>
+  <line x1="120" y1="130" x2="1080" y2="130" stroke="url(#track)" stroke-width="4" stroke-linecap="round" class="draw"/>
+
+  <g class="t">
+    <!-- Dell -->
+    <g class="pop" style="animation-delay:.3s"><circle cx="150" cy="130" r="26" fill="#0b1a2c" stroke="#38bdf8" stroke-width="3"/><text x="150" y="138" font-size="22" text-anchor="middle">💼</text></g>
+    <g class="fade" style="animation-delay:.6s">
+      <text x="150" y="190" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Dell</text>
+      <text x="150" y="212" font-size="13" fill="#93c5fd" text-anchor="middle">BI &amp; Data Engineer</text>
+      <text x="150" y="240" font-size="13" fill="#cbd5e1" text-anchor="middle">80+ daily Airflow jobs</text>
+      <text x="150" y="258" font-size="13" fill="#cbd5e1" text-anchor="middle">75% less manual work</text>
+    </g>
+    <!-- Providence -->
+    <g class="pop" style="animation-delay:.9s"><circle cx="420" cy="130" r="26" fill="#0b1a2c" stroke="#60a5fa" stroke-width="3"/><text x="420" y="138" font-size="22" text-anchor="middle">🏥</text></g>
+    <g class="fade" style="animation-delay:1.2s">
+      <text x="420" y="190" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Providence</text>
+      <text x="420" y="212" font-size="13" fill="#93c5fd" text-anchor="middle">Senior Data Engineer</text>
+      <text x="420" y="240" font-size="13" fill="#cbd5e1" text-anchor="middle">TB-scale refresh</text>
+      <text x="420" y="258" font-size="13" fill="#cbd5e1" text-anchor="middle">8 hours down to 30 min</text>
+    </g>
+    <!-- Columbia -->
+    <g class="pop" style="animation-delay:1.5s"><circle cx="690" cy="130" r="26" fill="#0b1a2c" stroke="#a78bfa" stroke-width="3"/><text x="690" y="138" font-size="22" text-anchor="middle">🎓</text></g>
+    <g class="fade" style="animation-delay:1.8s">
+      <text x="690" y="190" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Columbia</text>
+      <text x="690" y="212" font-size="13" fill="#c4b5fd" text-anchor="middle">MS Data Science</text>
+      <text x="690" y="240" font-size="13" fill="#cbd5e1" text-anchor="middle">GenAI, deep learning</text>
+      <text x="690" y="258" font-size="13" fill="#cbd5e1" text-anchor="middle">and agentic AI</text>
+    </g>
+    <!-- Amazon -->
+    <g class="pop" style="animation-delay:2.1s"><circle cx="960" cy="130" r="26" fill="#0b1a2c" stroke="#f472b6" stroke-width="3"/><text x="960" y="138" font-size="22" text-anchor="middle">📦</text></g>
+    <g class="fade" style="animation-delay:2.4s">
+      <text x="960" y="190" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Amazon</text>
+      <text x="960" y="212" font-size="13" fill="#f9a8d4" text-anchor="middle">Data Engineer Intern</text>
+      <text x="960" y="240" font-size="13" fill="#cbd5e1" text-anchor="middle">Built an MCP server</text>
+      <text x="960" y="258" font-size="13" fill="#cbd5e1" text-anchor="middle">40% less manual effort</text>
+    </g>
+    <!-- Next -->
+    <circle cx="1100" cy="130" r="10" fill="#f472b6" class="ring"/>
+    <circle cx="1100" cy="130" r="10" fill="#f472b6"/>
+    <text x="1100" y="96" font-size="14" font-weight="600" fill="#f9a8d4" text-anchor="middle" class="fade" style="animation-delay:2.8s">Next: your team? 🚀</text>
+  </g>
+</svg>

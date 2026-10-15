@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Shweta%20Smriti%20Tripathi&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Columbia%20MSDS&descAlignY=58&descSize=18" width="100%"/>
+  <img src="assets/banner.svg" width="100%" alt="Shweta Smriti Tripathi, Data Engineer and Data Scientist"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=2C9CDB&center=true&vCenter=true&width=640&lines=Hi+there%2C+I'm+Shweta+%F0%9F%91%8B;I+build+data+pipelines+that+people+trust;I+turn+TB-scale+data+into+clear+answers;MS+Data+Science+%40+Columbia+%F0%9F%8E%93" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=2C9CDB&center=true&vCenter=true&width=640&lines=I+build+data+pipelines+that+people+trust;I+turn+TB-scale+data+into+clear+answers;MS+Data+Science+%40+Columbia+%F0%9F%8E%93" alt="Typing intro"/>
 </p>
 
 <p align="center">
@@ -27,10 +27,11 @@ I've built pipelines at Amazon, Providence and Dell, and I'm now finishing my MS
 
 ---
 
-## 🛤️ My journey
+<p align="center">
+  <img src="assets/journey.svg" width="100%" alt="My journey from Dell to Providence to Columbia to Amazon"/>
+</p>
 
-| | Where | What I did |
-|---|---|---|
+---|---|---|
 | 💼 | **Dell Technologies** · BI & Data Engineer | Ran 80+ daily Airflow jobs and cut manual runbook work by 75% |
 | 🏥 | **Providence Global Center** · Senior Data Engineer | Took TB-scale data refreshes from 8 hours down to 30 minutes |
 | 🎓 | **Columbia University** · MS Data Science | Studying applied deep learning, GenAI and agentic AI |
