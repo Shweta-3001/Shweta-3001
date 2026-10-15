@@ -31,14 +31,6 @@ I've built pipelines at Amazon, Providence and Dell, and I'm now finishing my MS
   <img src="assets/journey.svg" width="100%" alt="My journey from Dell to Providence to Columbia to Amazon"/>
 </p>
 
----|---|---|
-| 💼 | **Dell Technologies** · BI & Data Engineer | Ran 80+ daily Airflow jobs and cut manual runbook work by 75% |
-| 🏥 | **Providence Global Center** · Senior Data Engineer | Took TB-scale data refreshes from 8 hours down to 30 minutes |
-| 🎓 | **Columbia University** · MS Data Science | Studying applied deep learning, GenAI and agentic AI |
-| 📦 | **Amazon** · Data Engineer Intern | Built an MCP server that cut manual engineering effort by 40% |
-| 🚀 | **What's next?** | Maybe your team 😊 |
-
----
 
 ## 🚀 Featured projects
 
